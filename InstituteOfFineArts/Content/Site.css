@@ -1,0 +1,375 @@
+﻿body {
+    
+}
+.type-page {
+    display: block;
+}
+.slide {
+    width: 100%;
+    margin-top: 0;
+}
+.container-style {
+    margin-right: auto;
+    margin-left: auto;
+}
+.container > .navbar-header,
+.container-style > .navbar-header,
+.container > .navbar-collapse,
+.container-style > .navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@media (min-width: 768px) {
+    .container > .navbar-header,
+    .container-style > .navbar-header,
+    .container > .navbar-collapse,
+    .container-style > .navbar-collapse {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+@media (min-width: 768px) {
+    .navbar > .container .navbar-brand,
+    .navbar > .container-style .navbar-brand {
+        margin-left: -15px;
+    }
+}
+.container .jumbotron,
+.container-style .jumbotron {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 6px;
+}
+.container .jumbotron,
+.container-style .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.container-style:before,
+.container-style:after {
+    display: table;
+    content: " ";
+}
+.container-style:after {
+    clear: both;
+}
+
+
+.show-list {
+    text-align: center;
+    display: block;
+    border: 1px solid rgba(0,0,0,0.9);
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRNMmUoizxCswR1w7AAsD21_6CuWNNl4kdRYDG2OV8HZCs91_i');
+    background-size: cover;
+    background-position:center;
+    height: 250px;
+}
+
+.style-slide {
+    max-width: 100%;
+    max-height: 600px;
+    text-align: center;
+}
+.style-slide img {
+    background: url(../img/slider2.jpg) center;
+    background-size: cover;
+    width: 100%;
+    height: 80vw !important;
+}
+
+.font-style_1 {
+    font-size: 1.5vw;
+}
+
+.font-style_2 {
+    font-size: 3vw;
+}
+
+.font-style_3 {
+    font-size: 1.5vw;
+}
+
+.background-style {
+    background-image: url("https://files.123freevectors.com/wp-content/original/143764-beige-antique-background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center {
+    display: block;
+    margin: -20px 10px 0px 10px;
+    width: 50%;
+}
+:root {
+    --mainColor: #ffa6c9;
+}
+.navbar-style {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navbar-style a {
+    color: #696969;
+    text-decoration: none;
+    float: left;
+    height: 50px;
+    padding: 0 200px 0 0;
+    font-size: 18px;
+    line-height: 20px;
+    background-repeat: repeat-x;
+    background-size: 100%;
+}
+    .navbar-styles a:hover {
+        color: #e0115f;
+        background: linear-gradient( to right, var(--mainColor) 0%, var(--mainColor) 5px, transparent );
+    }
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.register-button {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 86%;
+}
+.site-main {
+    display: block;
+}
+
+.entry-header {
+    text-align: center;
+    padding: 0;
+}
+.footer-submission {
+    margin: 20px;
+}
+.header-submission {
+    margin-top: 30px;
+    text-align: center;
+  
+}
+.detail-submission {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.submission-content {
+    text-align: justify;
+    margin: 20px;
+    font-size: 14px;
+    color: #000000;
+}
+.submission-button {
+    margin: 10px 20px 20px 600px;
+}
+h1 .entry-title {
+    margin-bottom: 0;
+}
+
+.banner-thumbnail {
+    width: 100%;
+    height: 300px;
+}
+.entry-title::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 2px;
+        background-color: #179bd7;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+.entry-title {
+    margin-bottom: -20px;
+    text-align: center;
+}
+.entry-content {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 86%;
+}
+.entry-content:hover{
+    background-color:#ffffff;
+}
+
+.entry-content li{
+    text-align:center;
+    list-style-type:none;
+}
+.entry-banner {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 86%;
+    height: 300px;
+}
+.logo-user {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+}
+.entry-content a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 86%;
+    padding-bottom: 5px;
+}
+
+ .entry-content a:hover {
+        background-color: #000000;
+ }
+.entry-content li {
+        text-align: center;
+        list-style-type: none;
+ }
+.term {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+.detail-content {
+    margin: 20px;
+    padding: 10px;
+}
+.thumbnail-img {
+    width: 250px;
+    height: 250px;
+}
+.show-more {
+    width: 170px;
+    margin-top: 5px;
+}
+.picture {
+    width: 400px;
+    height: 300px;
+}
+.content-register {
+    font-size: 18px;
+    margin-left: 150px;
+
+}
+.content-update {
+    font-size: 18px;
+}
+.max-w {
+    max-width: 33%;
+}
+.w-60 {
+    width: 60%;
+}
+.img-detail-submisstion {
+    width: 550px;
+}
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg:hover {
+    opacity: 0.7;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close1 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close1:hover,
+.close1:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content { width: 100%; }
+}
